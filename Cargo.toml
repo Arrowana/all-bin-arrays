@@ -1,0 +1,13 @@
+[package]
+name = "all-bin-arrays"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-rpc-client = "3.0"
+solana-address = "*"
+solana-account-decoder = "3.0"
+solana-rpc-client-api = "3.0"
+solana-commitment-config = "3.0"
+dotenv = "0.15"
+bytemuck = { version = "1", features = ["min_const_generics"] }
